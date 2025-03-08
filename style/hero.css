@@ -2,3 +2,100 @@
 .open-sans {
     font-family: "Open Sans", sans-serif;
 }
+
+.primary-color {
+    color: #FF5400;
+}
+
+.primary-button{
+    background-color: #FF5400;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 174px;
+    height: 52px;
+}
+
+/* header styles */
+/* nav styles */
+.nav {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-title-container {
+    display: flex;
+    gap: 10px;
+    max-height: 50px;
+    align-items: center;
+}
+
+.nav-bar-container ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar-container ul li {
+    list-style: none;
+}
+
+.nav-bar-container ul li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.nav-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* banner styles */
+.banner {
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+    max-width: 1600px;
+    margin: 10px auto;
+}
+
+.banner-content-container {
+    align-items: center;
+    max-width: 676px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.banner-bar{
+    width: 700px;
+    height: 100px;
+    margin: 10px auto;
+    background-color: #FFFFFF;
+    padding-left: 150px;
+    padding-top: 1px;
+}
+
+.banner-bar ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.banner-bar ul li {
+    list-style: none;
+}
